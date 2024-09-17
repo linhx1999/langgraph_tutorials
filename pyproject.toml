@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "langgraph-tutorials"
+version = "0.1.0"
+description = ""
+authors = ["linhx <linhx1999@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+langgraph = "^0.2.22"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
